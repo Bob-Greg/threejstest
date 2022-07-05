@@ -1,0 +1,22 @@
+{
+  "name": "threejs",
+  "private": true,
+  "homepage": "https://bob-greg.github.io/bob-greg/threejstest",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4",
+    "vite": "^2.9.9"
+  },
+  "dependencies": {
+    "@types/three": "^0.141.0",
+    "gh-pages": "^4.0.0",
+    "three": "^0.142.0"
+  }
+}
